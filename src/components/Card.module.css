@@ -1,0 +1,63 @@
+.nombre {
+    color: rgb(119, 2, 70);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bordeCard{
+    
+    background-color: rgb(194, 30, 170);
+    width: 450px;
+    height: 750px;
+    margin: 15px;
+    /* 
+    border: solid rgb(48, 11, 101) 15px;
+    */
+    align-items: center;
+    border-radius: 3%; 
+    /* border: 10px solid transparent;
+    border-image: linear-gradient(to right, rgb(243, 119, 37), green);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10);
+    border-image-slice:1 ; */
+    border: 10px solid transparent;
+    animation: flashBorder 5s linear infinite;
+}
+@keyframes flashBorder {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    75% {
+        border-color: orange;
+    }
+    100% {
+        border-color: purple;
+    }
+}
+
+
+
+
+.caracteristicas {
+    color: rgb(78, 9, 196);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.foto {
+    margin: auto;
+    border-radius: 20%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
